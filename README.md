@@ -9,11 +9,11 @@ Slack-App is a bot that uses the Slack API and can send and delete messages in a
 [Alexey Voevoda](https://github.com/avoevoda433)
 
 ## Installation
-[Download](https://github.com/iba-gomel-students/avayavoda-python-be/archive/refs/heads/task_2.zip)
+[Download](https://github.com/avoevoda433/Console_Slack_Bot/archive/refs/heads/main.zip)
 archive. Unpack app following commands.
 ```bash
-sudo unzip avayavoda-python-be-task_2.zip
-cd avayavoda-python-be-task_2/task_2
+sudo unzip Console_Slack_Bot-main.zip
+cd Console_Slack_Bot-main
 sudo python3 setup.py build 
 sudo python3 setup.py install --record files.txt
 ```
@@ -45,7 +45,7 @@ You may receive the following messages after executing the command:
 You can uninstall app following command:
 ```bash
 # Open app directory 
-cd avayavoda-python-be-task_2/task_2
+cd Console_Slack_Bot-main
 sudo pip3 uninstall Slack-App
 sudo bash -c "cat files.txt | xargs rm -rf"
 ```
